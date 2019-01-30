@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta content="charset=utf-8">
+  <title>FlexSlider 2</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Prompt:400,500" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Demo CSS -->
+  <link rel="stylesheet" href="./flexslider/flexslider.css" type="text/css" media="screen" />
+
+  <link rel="stylesheet" href="./flexslider-custom.css">
+</head>
+
+<body class="loading">
+  <section class="slider">
+    <div class="flexslider image-slider">
+      <ul class="slides">
+        <li style="background: url(https://nakomah.com/assets/images/intro-bg.jpg) no-repeat center center;background-size: cover">
+          <!-- <img src="./ex/kitchen_adventurer_lemon.jpg" /> -->
+          <div class="caption-container">
+            <h1>"เราคับเคลื่อนธุรกิจของท่านด้วยเว็บไซต์"<br> จัดทำโปรแกรมคอมพิวเตอร์พัฒนาระบบงานธุรกิจส่วนตัวและหน่วยงาน</h1>
+            <h3>ใส่ใจคุณภาพ คุ้มราคา ส่งงานตรงเวลา</h3>
+            <p>
+              <a class="btn btn-start btn-lg btn-highlight" href="tel:0862887987" role="button">
+                <i class="fa fa-phone fa-lg"></i> 086-2887-987 (ท็อป)
+              </a>
+              <a class="btn btn-start btn-lg" data-toggle="modal" data-target="#mail_query">
+                <i class="fa fa-file-text fa-lg"></i> ขอใบเสนอราคา
+              </a>
+            </p>
+          </div>
+        </li>
+        <li style="background: url(https://nakomah.com/assets/images/intro-bg.jpg) no-repeat center center;background-size: cover">
+          <div class="caption-container">
+            <h1>โปรแกรมขายหน้าร้าน SysPOS</h1>
+            <h3>โปรแกรมที่ออกแบบมาให้ใช้งานง่าย ดูสะอาดตาและดูแลหลังการขายตลอดอายุการใช้งาน</h3>
+            <p>
+              <a class="btn btn-start btn-info btn-lg" href="tel:0862887987" role="button">
+                <i class="fa fa-external-link fa-lg"></i> ดูรายละเอียดเพิ่มเติม
+              </a>
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 pt-15">
+          Lorem Ipsum คือ เนื้อหาจำลองแบบเรียบๆ ที่ใช้กันในธุรกิจงานพิมพ์หรืองานเรียงพิมพ์ มันได้กลายมาเป็นเนื้อหาจำลองมาตรฐานของธุรกิจดังกล่าวมาตั้งแต่ศตวรรษที่ 16 เมื่อเครื่องพิมพ์โนเนมเครื่องหนึ่งนำรางตัวพิมพ์มาสลับสับตำแหน่งตัวอักษรเพื่อทำหนังสือตัวอย่าง Lorem Ipsum อยู่ยงคงกระพันมาไม่ใช่แค่เพียงห้าศตวรรษ แต่อยู่มาจนถึงยุคที่พลิกโฉมเข้าสู่งานเรียงพิมพ์ด้วยวิธีทางอิเล็กทรอนิกส์ และยังคงสภาพเดิมไว้อย่างไม่มีการเปลี่ยนแปลง มันได้รับความนิยมมากขึ้นในยุค ค.ศ. 1960 เมื่อแผ่น Letraset วางจำหน่ายโดยมีข้อความบนนั้นเป็น Lorem Ipsum และล่าสุดกว่านั้น คือเมื่อซอฟท์แวร์การทำสื่อสิ่งพิมพ์ (Desktop Publishing) อย่าง Aldus PageMaker ได้รวมเอา Lorem Ipsum เวอร์ชั่นต่างๆ เข้าไว้ในซอฟท์แวร์ด้วย
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <!-- FlexSlider -->
+  <script defer src="./flexslider/jquery.flexslider.js"></script>
+  <script type="text/javascript">
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        animation: "fade",
+        animationLoop: true,
+        nextText: "",
+        prevText: "",
+        controlNav: false,
+        directionNav: true,
+        slideshowSpeed: 3000,
+      });
+    });
+  </script>
+
+</body>
+
+</html>
